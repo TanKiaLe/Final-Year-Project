@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+nav img{
+    width:200px;
+    height:67px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 22px;
+    line-height: 62px;
+    float: left;
+    padding: 0px 20px;
+}
+
+form{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display:block;
+}
+
+h1{
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+input[type="text"],
+select {
+    color: #FFF;
+    background: rgba(161, 157, 157, 0.856);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+    transform: scale(1); 
+}
+
+select{
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+fieldset{
+    margin-bottom: 30px;
+    border: none;
+}
+legend{
+    display: block;
+    margin-bottom: 8px;
+    color: #FFF;
+}
+
+label{
+    color: #FFF;
+}
+
+label.light{
+    font-weight: 250;
+    display: inline;
+    color: #FFF;
+}
+
+.section{
+    background-color: #5fcf80;
+    color: #FFF;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255,0.2);
+    border-radius: 100%;
+}
+
+input[type= "button"],
+input[type= "submit"]{
+    padding: 15px 15px 10px 10px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 10px;
+}
+
+input.addzonedetails1{
+    color: #FFF;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #3ac162;
+}
+
+@media screen and (min-width: 480px ) {
+    form{
+        max-width: 480px;
+    }
+}
+
+a.hihi{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+}
+
+form .error1{
+    color:#FFF;
+}
+
+a.huhu{
+    color: white;
+}
+

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../background3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 68px;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+nav img{
+    width:110px;
+    height:67px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 62px;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+.loginul{
+    float: right;
+}
+
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #808B96;
+    float: left;
+}
+
+.menu-bar ul li{
+    float: left;
+    list-style-type: none;
+    position: relative;
+    line-height: 50px;
+}
+
+.menu-bar ul li a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 8px 14px;
+    
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.active, .menu-bar ul li:hover{
+    
+    background: rgba(0,0,0,0.5);
+
+}
+
+.sub-menu-1{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,2.5);;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    font-size: 14px;
+    padding: 1px 25px;
+    margin: cover;
+    border-bottom:  dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    line-height: 20px;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.menu-bar ul li .haha{
+    font-size: 15px ;
+    font: bold;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li .logoutbt:hover{
+    color:red;
+}
+
+
+
+th{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color:  rgba(0,0,0,0.5);
+}
+.table-hover{
+    background-color: rgba(172, 162, 162, 0.75);
+    color:  rgba(0,0,0,0.5);
+}
+.table-hover thead{
+    background-color: rgba(172, 162, 162, 0.75);
+    color:  rgba(0,0,0,0.5);
+}
+
+h1{
+   margin-top: 50px;
+   color: black;
+   background: rgba(255,255,255,0.75); 
+   text-align: center;
+}
+h2{
+    margin-top: 50px;
+    background: rgba(255,255,255,0.75); 
+    font-size: 120px;
+    text-align: center;
+ }
+td{
+    background-color: rgba(255,255,255,0.75);
+    color: black;
+    text-align: center;
+}
+table{
+    width: 30px;
+    margin: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(172, 162, 162, 0.75);
+    color:  rgba(0,0,0,0.5);
+}
+
+
+
+
